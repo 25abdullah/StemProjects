@@ -1,5 +1,5 @@
 # StemProjects
-This read me outlines the CAD and Python Projects that I have complied. Starting with the Python Projects:
+This readme outlines the Autodesk Inventor (CAD) and Python Projects that I have complied. Starting with the Python Projects:
 
 1.) NumberGuess- A game where you have to guess a number from 1-50 in three attempts 
 
@@ -23,4 +23,12 @@ CAD Projects:
 
 2.) B2bomber- Based on the B2 stealth bomber, a United States military plane
 
-3.) Chair- A model of a chair 
+3.) Chair- A model of a chair, my first Inventor Project.
+
+4.) F1- Based on a Formula 1 racing car. 
+
+5.) Mustang- Based on a 2007 Ford Mustang GT, convertible edition. 
+
+6.) Pencil holder- Based on a pencil holder to hold stationary utensils. 
+
+7.) Sr71- Based on the United States' military plane, the Lockheed SR-71 Blackbird.
