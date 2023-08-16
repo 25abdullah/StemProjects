@@ -1,5 +1,5 @@
 # StemProjects
-This readme outlines the Autodesk Inventor (CAD) and Python Projects that I have complied. Starting with the Cad Projects:
+This readme outlines the Autodesk Inventor (CAD) and Python Projects that I have complied. Starting with the CAD Projects:
 
 1.) Truck- Based on the Freightliner FL86 cab which was a flat-nose truck.  
 
