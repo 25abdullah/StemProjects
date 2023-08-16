@@ -1,5 +1,21 @@
 # StemProjects
-This readme outlines the Autodesk Inventor (CAD) and Python Projects that I have complied. Starting with the Python Projects:
+This readme outlines the Autodesk Inventor (CAD) and Python Projects that I have complied. Starting with the Cad Projects:
+
+1.) Truck- Based on the Freightliner FL86 cab which was a flat-nose truck.  
+
+2.) B2bomber- Based on the B2 stealth bomber, a United States military plane.
+
+3.) Chair- A model of a simple chair, my first Inventor Project.
+
+4.) F1- Based on the 90s era Ferrari F1 cars. 
+
+5.) Mustang- Based on a 2007 Ford Mustang GT, convertible edition. 
+
+6.) Pencil holder- Based on a pencil holder to hold stationary utensils. 
+
+7.) Sr71- Based on a United States reconnaissance plane, the Lockheed SR-71 Blackbird.
+
+Python Projects: 
 
 1.) NumberGuess- A game where you have to guess a number from 1-50 in three attempts 
 
@@ -16,18 +32,3 @@ This readme outlines the Autodesk Inventor (CAD) and Python Projects that I have
 7.) wordcounter- computes the number of words given a text. Additionally, it gives feedback on if the user has exceeded their minimum and
 maximum word count based on their input.
 
-CAD Projects:
-
-1.) Truck- Based on the Freightliner FL86 cab which was a flat-nose truck.  
-
-2.) B2bomber- Based on the B2 stealth bomber, a United States military plane.
-
-3.) Chair- A model of a simple chair, my first Inventor Project.
-
-4.) F1- Based on the 90s era Ferrari F1 cars. 
-
-5.) Mustang- Based on a 2007 Ford Mustang GT, convertible edition. 
-
-6.) Pencil holder- Based on a pencil holder to hold stationary utensils. 
-
-7.) Sr71- Based on a United States reconnaissance plane, the Lockheed SR-71 Blackbird.
