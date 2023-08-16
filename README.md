@@ -14,7 +14,6 @@ This readme outlines the Autodesk Inventor (CAD) and Python Projects that I have
 6.) Stickfigure- uses functions to create a stick figure. 
 
 7.) wordcounter- computes the number of words given a text. Additionally, it gives feedback on if the user has exceeded their minimum and
-
 maximum word count based on their input.
 
 CAD Projects:
