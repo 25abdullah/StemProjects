@@ -7,13 +7,13 @@ This readme outlines the Autodesk Inventor (CAD) and Python Projects that I have
 
 3.) Meanof3Numbers- Computes the mean of three numbers. 
 
-4.) randomPassword- creates a random password along with a random Gmail account
+4.) randomPassword- creates a random password along with a random Gmail username
 
 5.) RockPaperScissors- a rock-paper-scissors game against the computer that also incorporates turtle graphics to depict the chosen move.
 
 6.) Stickfigure- uses functions to create a stick figure. 
 
-7.) wordcounter- computes the number of words given a text. Additionally, it gives feedback on if the user has exceeded their minimum and m
+7.) wordcounter- computes the number of words given a text. Additionally, it gives feedback on if the user has exceeded their minimum and
 
 maximum word count based on their input.
 
