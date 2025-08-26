@@ -1,4 +1,4 @@
-Python Programming Projects (High School 2022-2023)
+Python Programming Projects (2022-2023)
 Rock Paper Scissors with Graphics (rockPaperScissors.py)
 Multi-round game with turtle graphics visualization of each choice and score tracking.
 Key Implementation:
