@@ -61,7 +61,7 @@ Technical Implementation:
 - Multiple sub-assemblies
 
 ### Chevrolet Camaro
-Sports car with detailed undercarriage.
+muscle car with a full roof.
 
 Components:
 - Chassis (using polygon tool for roof)
