@@ -150,9 +150,9 @@ class Domino implements IDomino {
     return this.left + this.right + this.next.computeSum();
   }
 
-  // compute number of Strong Links
+  // compute number of Strong Links (a strong link is if the previous and current dominos are doubles)
   public int computeStrongLinks() {
-    if (this.isDouble() && this.next.isDouble()
+    if (this.isDouble() && this.next.isDouble())
         && this.next.prevRightEqualsCurrentLeft(this.right)) {
       return 1 + this.next.computeStrongLinks();
     }
@@ -181,11 +181,13 @@ class testDomino {
   Domino oneOne = new Domino(1, 1, this.oneTwo);
   Domino oneOneAgain = new Domino(1, 1, this.oneOne);
 
+  //test count method 
   boolean testCount(Tester t) {
     return t.checkExpect(this.base.count(), 0) && t.checkExpect(this.twoThree.count(), 1)
         && t.checkExpect(this.oneTwo.count(), 2);
   }
 
+  //test countHelper method 
   boolean testCountHelper(Tester t) {
     return t.checkExpect(this.base.countHelper(), 0)
         && t.checkExpect(this.twoThree.countHelper(), 2)
@@ -193,6 +195,7 @@ class testDomino {
 
   }
 
+  //test validChain method 
   boolean testValidChain(Tester t) {
     return t.checkExpect(this.base.validChain(), true)
         && t.checkExpect(this.threeFour.validChain(), true)
@@ -200,12 +203,14 @@ class testDomino {
         && t.checkExpect(this.oneTwo.validChain(), true);
   }
 
-  boolean testValidHelper(Tester t) {
+  //test validChainHelper method 
+  boolean testValidChainHelper(Tester t) {
     return t.checkExpect(this.base.validChainHelper(5), true)
         && t.checkExpect(this.threeFour.validChainHelper(10), false)
         && t.checkExpect(this.threeFour.validChainHelper(3), true);
   }
 
+  //test computeDoubles method 
   boolean testComputeDoubles(Tester t) {
     return t.checkExpect(this.base.computeDoubles(), 0)
         && t.checkExpect(this.threeFour.computeDoubles(), 0)
@@ -215,6 +220,7 @@ class testDomino {
 
   }
 
+  //test computeSum method
   boolean testComputeSum(Tester t) {
     return t.checkExpect(this.base.computeSum(), 0) && t.checkExpect(this.threeFour.computeSum(), 7)
         && t.checkExpect(this.twoThree.computeSum(), 12)
@@ -223,6 +229,7 @@ class testDomino {
 
   }
 
+  //test computeStrongLinks method 
   boolean testComputeStrongLinks(Tester t) {
     return t.checkExpect(this.base.computeStrongLinks(), 0)
         && t.checkExpect(this.threeFour.computeStrongLinks(), 0)
@@ -233,14 +240,17 @@ class testDomino {
 
   }
 
+  //test isDouble method 
   boolean testIsDouble(Tester t) {
     return t.checkExpect(this.threeFour.isDouble(), false)
         && t.checkExpect(this.oneOne.isDouble(), true);
   }
 
+  //test prevRightEqualsCurrentLeft method
   boolean testPrevRightEqualsCurrentLeft(Tester t) {
     return t.checkExpect(this.threeFour.prevRightEqualsCurrentLeft(4), false)
         && t.checkExpect(this.threeFour.prevRightEqualsCurrentLeft(3), true);
   }
 
 }
+
