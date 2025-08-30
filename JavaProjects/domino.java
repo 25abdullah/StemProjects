@@ -152,7 +152,7 @@ class Domino implements IDomino {
 
   // compute number of Strong Links (a strong link is if the previous and current dominos are doubles)
   public int computeStrongLinks() {
-    if (this.isDouble() && this.next.isDouble())
+    if (this.isDouble() && this.next.isDouble()
         && this.next.prevRightEqualsCurrentLeft(this.right)) {
       return 1 + this.next.computeStrongLinks();
     }
@@ -253,4 +253,3 @@ class testDomino {
   }
 
 }
-
