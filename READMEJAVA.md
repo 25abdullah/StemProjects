@@ -86,7 +86,6 @@ Skills Used:
 - Abstraction: Abstract base class for celestial bodies, interface for moon lists
 - Accumulator Recursion Pattern: Building comma-separated moon lists and finding the largest moon across nested planet/moon structures.
 - Object Composition: Planets containing moon lists, systems containing planets
-- Design Patterns: Visitor-like pattern for system-wide operations
 
 ## Testing Strategy
 
