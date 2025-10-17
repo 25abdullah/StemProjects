@@ -7,6 +7,7 @@ Data analysis and visualization projects examining public safety and housing tre
 
 ### **Overview**
 Analysis of Boston shooting data identifying trends in fatal and non-fatal incidents. Uses pandas for data cleaning and matplotlib for visualization.
+Data can be found here: https://data.boston.gov/dataset/shootings
 
 ### **Key Findings**
 - **47% reduction** in total shootings from 2015 to 2024 (245 → 129 incidents)
@@ -25,7 +26,7 @@ Analysis of Boston shooting data identifying trends in fatal and non-fatal incid
 - **Visualization Design:** Color-coded charts with clear legends and axis labels
 
 ### **Technologies Used**
-Python (pandas, matplotlib, NumPy), Jupyter Notebook, CSV export
+Python (pandas, matplotlib), Jupyter Notebook, CSV export
 
 ---
 
@@ -33,6 +34,7 @@ Python (pandas, matplotlib, NumPy), Jupyter Notebook, CSV export
 
 ### **Overview**
 Dual-platform visualization examining Real-Time Vacancy Rate (RTVR) increases across Greater Boston neighborhoods since 2024.
+Data can be found here: https://bostonpads.com/real-time-data/
 
 ### **Key Findings**
 - **Symphony**: Largest increase (~183%)
@@ -71,11 +73,11 @@ Dual-platform visualization examining Real-Time Vacancy Rate (RTVR) increases ac
 ---
 
 ### **Design Strategy**
-**Dual Approach:** Bar chart shows magnitude rankings; map reveals geographic patterns. Together they provide complementary perspectives on housing trends.
+**Dual Approach:** Bar chart shows magnitude rankings; map reveals geographic patterns. Together, they provide complementary perspectives on housing trends.
 
 **Design Decisions:**
 - Proportional bubble sizing for visual impact
-- Teal-to-blue gradient showing increase intensity
+- Teal-to-blue gradient showing increasing intensity
 - Consistent red branding for data story
 
 ### **Technologies Used**
