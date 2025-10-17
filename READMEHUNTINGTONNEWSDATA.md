@@ -110,15 +110,9 @@ Boston Pads rental platform (RTVR/RTAR metrics, 2024 baseline)
 
 ---
 
-## **Impact & Applications**
-
-**Shooting Analysis:** Evidence-based public safety reporting, policy discussions, COVID-era investigation  
-**Housing Analysis:** Identifies neighborhood market changes, supports urban planning and housing policy discussions
-
----
 
 ## **About This Work**
-Created as **Data Editor for The Huntington News** at Northeastern University. Demonstrates data science, journalism, and visual storytelling for diverse audiences.
+Created as **Data Editor for The Huntington News** at Northeastern University. Demonstrates data science, journalism, and visual storytelling for the diverse Northeastern University community.
 
 **Portfolio by Abdullah Ismail**  
 Data Editor, The Huntington News | CS & Math, Northeastern University
