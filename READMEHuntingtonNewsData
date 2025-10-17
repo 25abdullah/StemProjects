@@ -1,3 +1,177 @@
-Data Journalism & Visualization Portfolio 
-Documentation and records of my work with the Huntington News. As a data editor, I Clean, analyze, and visualize public datasets using Python pandas and matplotlib, then transform findings into interactive graphics via Flourish and Datawrapper. 
-I create data-driven illustrations for articles by writers, making complex trends accessible through maps, charts, and visual narratives.
+Data Journalism & Visualization Portfolio
+Comprehensive data analysis and visualization projects examining public safety and housing trends in Boston using Python, Flourish, and Datawrapper.
+
+Project 1: Boston Shooting Data Analysis (2015-2024)
+Overview
+In-depth analysis of Boston shooting data from 2015-2024, identifying trends in fatal and non-fatal incidents across the city. This project uses Python for data manipulation, statistical analysis, and visualization to uncover meaningful patterns in public safety data for The Huntington News.
+Key Findings
+
+47% reduction in total shootings from 2015 to 2024 (245 → 129 incidents)
+2,141 total shooting incidents over the 10-year period
+15.65% fatal rate (355 fatal, 1,786 non-fatal shootings)
+COVID-era spike: Notable increase in shootings during 2020, peaking at 276 total incidents
+Consistent decline from 2020 peak through 2024
+
+Technical Implementation
+
+Data Processing: Used pandas for filtering, boolean indexing, and temporal analysis
+Visualizations: Created matplotlib bar charts showing trends over time
+Statistical Analysis: Calculated percent change, fatality rates, and year-over-year comparisons
+Data Export: Generated CSV files for further analysis (Fatal_Shootings_Over_Time.csv, Non_Fatal_Shootings_Over_Time.csv, Total_Shootings_Over_Time.csv)
+
+Technologies Used
+
+Python, pandas, matplotlib
+Jupyter Notebook (Google Colab)
+Boolean indexing for data filtering
+datetime manipulation for temporal analysis
+
+Visualizations Created
+Three comprehensive charts tracking:
+
+Fatal shootings by year - Showing decline from 48 (2018) to 20 (2024)
+Non-fatal shootings by year - Peak of 228 in 2020, declining to 109 in 2024
+Total shootings over time - Overall downward trend with COVID spike
+
+Future Analysis Opportunities
+
+District-level analysis of shooting concentrations
+Demographic patterns in victim data
+Seasonal/monthly trends within years
+Multi-victim incident analysis
+
+
+Project 2: Greater Boston Housing Vacancy Rate Analysis
+Overview
+Interactive data visualizations analyzing the increase in housing vacancy rates across Greater Boston neighborhoods since 2024. This dual-platform project examines Real-Time Vacancy Rate (RTVR) changes, combining quantitative comparison with geographic distribution for comprehensive storytelling.
+Key Findings
+
+Symphony showed the largest vacancy rate increase (~183%)
+Fort Hill experienced the second-largest increase (~85%)
+Mission Hill and Roxbury showed moderate increases
+Fenway had minimal change (~3%)
+Allston was omitted due to a negative vacancy rate change
+Neighborhoods in central Boston saw more dramatic shifts than outer areas
+
+Flourish Visualization
+Bar Chart: "Housing vacancy rates around Greater Boston have increased since 2024, data show"
+
+Clean, publication-ready bar chart format
+Color-coded bars in deep red for visual consistency
+Percentage-based y-axis (0-200%) for clear scale
+Five neighborhoods compared: Symphony, Fort Hill, Roxbury, Fenway, Mission Hill
+Source attribution: Boston Pads • Visualization by Abdullah Ismail
+Clear annotation explaining Allston's omission
+
+Features:
+
+Professional styling for editorial/news use
+Responsive design for web embedding
+Clear value labels showing dramatic differences
+Accessible color choices
+Publication-quality typography
+
+Datawrapper Visualization
+Interactive Map: "See where housing vacancy rates around Greater Boston have increased since 2024"
+
+Geographic bubble map showing spatial distribution of vacancy rate changes
+Proportional circle sizing based on RTVR increase magnitude
+Color gradient scale: teal (3%) to dark blue (183%)
+Labeled neighborhoods: Symphony, Fort Hill, Roxbury, Mission Hill, Fenway, South End, Back Bay
+Greater Boston metropolitan area with neighborhood boundary overlays
+Gray base map providing geographic context
+
+Interactive Features:
+
+Bubble size legend showing scale (20, 80, 200 percentage points)
+Geographic positioning shows actual neighborhood locations
+Visual clustering around central Boston neighborhoods
+Spatial patterns reveal downtown concentration of increases
+
+Data Sources
+
+Primary Source: Boston Pads rental data platform
+Metric: Real-Time Vacancy Rate (RTVR) and Real-Time Availability Rate (RTAR)
+Time Period: 2024 baseline comparison
+Geographic Scope: Greater Boston neighborhoods
+
+Technologies Used
+Flourish:
+
+Interactive bar chart creation
+Annotation and sourcing capabilities
+Responsive chart design
+Clean, editorial-style formatting
+
+Datawrapper:
+
+Interactive geographic/bubble map visualization
+Custom color scales and proportional sizing
+Neighborhood boundary integration
+Geographic data mapping tools
+
+Design Decisions
+
+Dual visualization strategy: Bar chart for direct comparison, map for geographic context
+Bubble size: Proportional to magnitude of change for immediate visual impact
+Color gradient (map): Teal-to-dark-blue scale showing progression of increases
+Consistent red (chart): Creates strong visual identity for the data story
+Typography: Clear, accessible fonts optimized for both print and digital
+Data integrity: Transparent about omitting Allston with clear explanation
+
+Visualization Strategy
+The combination of Flourish (comparison) and Datawrapper (geography) provides:
+
+Quick understanding: Bar chart shows "what" and "how much"
+Spatial context: Map reveals "where" and geographic patterns
+Complementary insights: Readers can see both rank order and proximity
+Enhanced storytelling: Two angles on the same housing trend
+
+
+Combined Skills Demonstrated
+Technical Proficiency
+
+Python (pandas, matplotlib, NumPy)
+Data cleaning and preprocessing
+Statistical analysis and trend identification
+Boolean indexing and temporal data manipulation
+CSV/Excel data processing with Papaparse and SheetJS
+
+Data Visualization
+
+Static visualization (matplotlib)
+Interactive charts (Flourish)
+Geographic/spatial visualization (Datawrapper)
+Multi-platform visualization strategy
+Publication-ready design principles
+
+Data Journalism
+
+Working with real-world datasets
+Public safety and housing market analysis
+Clear sourcing and attribution
+Thoughtful data omission with documentation
+Translating complex data into accessible narratives
+
+Tools & Platforms
+
+Python: pandas, matplotlib, NumPy, Plotly
+Visualization: Flourish, Datawrapper
+Development: Jupyter Notebook, Google Colab
+Data Processing: Excel, CSV manipulation
+
+
+Impact & Applications
+Boston Shooting Analysis
+
+Provides evidence-based insights for public safety reporting
+Identifies long-term trends for policy discussions
+Highlights COVID-era anomalies requiring deeper investigation
+Supports data-driven journalism at The Huntington News
+
+Housing Vacancy Analysis
+
+Reveals emerging housing availability trends
+Identifies neighborhoods experiencing rapid market changes
+Provides geographic context for development stories
+Supports housing policy and urban planning discussions
